@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background-color: #303030;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav h1{
+    font-family: Raleway;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3vw;
+    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    column-gap: 2rem;
+    padding: 3rem;
+    justify-content: space-around;
+       
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.25rem;
+    color: #265E70;
+    text-decoration-line: underline;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+#slider{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    column-gap: 1.6rem;
+    margin-top: 3rem;
+    
+}
+
+.moveBtn{
+    background: transparent;
+    border: none;
+}
+
+.slider-cards{
+    display: flex;
+    max-width: 550px;
+    min-height: 540px;
+    overflow: hidden; /*Serve para esconder os outros cards*/
+    gap: 2rem;
+}
+
+.slider-cards li{
+    display: flex;
+    flex-direction: column;
+    min-width: 550px;
+    border-radius: 15px;
+    background-color: rgba(77, 188, 233, 0.75);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    justify-content: space-around;
+}
+
+.slider-cards h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.card-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    gap: 0.5rem;
+}
+
+.card-label h1{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-label h3{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-label>span{
+    width:211px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #265E70;
+    text-decoration-line: underline;
+    padding: 0.5rem;
+    
+}
+
+#moreInfo{
+    text-align: center;
+    border: none;
+    width: 341px;
+    height: 75px;
+    background-color: #4DBCE9;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.45rem;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #FFFFFF;
+    align-items: center;
+    
+
+}
+
+#right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

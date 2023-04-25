@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bye Car</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <img src="assets/logoDNC.svg" alt="logodaDNC" id="logopic"/>
+      <h1>Bye Car</h1>
+    </nav>
+    <main>
+      <!--Left Section-->
+      <section>
+        <h2>
+          Ter <strong>uma moto</strong> por assinatura
+          nunca foi tão fácil!
+        </h2>
+        <img src="assets/imageleft.svg" />
+      </section>
+      <!--Right Section-->
+      <section id="right-section">
+        <h2>
+          Conheça nossas
+          <span style="color: #4dbce9; font-weight: bold">motos</span>!
+        </h2>
+
+        <div id="slider">
+
+          <button class="moveBtn" onclick="slider(-1)">
+            <img src="assets/leftarrow.svg" alt="previous card" />
+          </button>
+          <!--Lista é melhor para o JS no quesito objeto e arrays!-->
+
+          <ul class="slider-cards">
+
+            <li>
+              <h2>Scooter Elétrica Voltz EV1</h2>
+              <img src="./assets/scooter.svg" alt="" />
+              <div class="card-label">
+                <h1>A partir de</h1>
+                <span>R$ 619,90</span>
+                <h3>Plano de 30 meses</h3>
+              </div>
+            </li>
+
+              <li>
+                <h2>Honda PCX</h2>
+                <img src="./assets/pcx.svg" alt="" />
+                <div class="card-label">
+                  <h1>A partir de</h1>
+                  <span>R$ 749,90</span>
+                  <h3>Plano de 30 meses</h3>
+                </div>
+              </li>
+
+              <li>
+                <h2>Honda CB 500X</h2>
+                <img src="./assets/hondaCB.svg" alt="" />
+                <div class="card-label">
+                  <h1>A partir de</h1>
+                  <span>R$ 890,90</span>
+                  <h3>Plano de 30 meses</h3>
+                </div>
+              </li>
+
+
+          </ul>
+
+          <button class="moveBtn" onclick="slider(+1)">
+            <img src="assets/rightarrow.svg" alt="next card" />
+          </button>
+
+        </div>
+
+<button id="moreInfo">Saiba Mais</button>
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
